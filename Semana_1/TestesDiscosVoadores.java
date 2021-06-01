@@ -57,8 +57,6 @@ public class TestesDiscosVoadores {
 			indexMenor = encontraMenorLinha(matriz, i);
 			if(indexMenor != i)
 				inverteLinhaMatriz(matriz, i, indexMenor);
-
-
 		}
 	}
 	public static void ordenaColunaMatriz(int[][] matriz){
@@ -67,8 +65,6 @@ public class TestesDiscosVoadores {
 			indexMenor = encontraMenorColuna(matriz, i);
 			if(indexMenor != i)
 				inverteColunaMatriz(matriz, i, indexMenor);
-
-
 
 		}
 	}
