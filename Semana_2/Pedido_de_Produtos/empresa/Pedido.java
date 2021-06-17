@@ -65,4 +65,9 @@ public class Pedido{
 			return false;
 		}
 	}
+	public void getPedido(){
+		for(int elementos : this.pedido){
+			System.out.println(elementos);
+		}
+	}
 }

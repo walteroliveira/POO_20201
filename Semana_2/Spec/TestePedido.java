@@ -1,4 +1,4 @@
-import empresa.Pedido;
+import empresas.Pedido;
 
 public class TestePedido{
 	public static void main(String[] args){
