@@ -9,6 +9,6 @@ public  class TextoData implements PluginTexto{
         this.ano = ano;
     }
     public String aplicar(String texto){
-        return texto + "(DATA: " + dia + "/" + mes + "/" + ano + ")"; 
+        return texto + " (DATA: " + dia + "/" + mes + "/" + ano + ")"; 
     }
 }
